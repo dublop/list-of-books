@@ -1,0 +1,12 @@
+.books {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.books li, .books img {
+    width: 200px;
+}
+.readingList {
+    opacity: 0.5;
+}
